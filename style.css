@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&family=Fira+Sans:wght@100;400&family=Josefin+Sans:wght@300;400&family=Roboto+Slab&family=Rubik+Glitch&family=Rubik+Puddles&family=Source+Code+Pro:ital,wght@0,300;1,300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.mainDiv{
+    place-items: center;
+    width: 100vw;
+    background-color: hsl(206, 92%, 94%);
+    min-height: 100vh;
+    display: grid
+}
+.innerDiv{
+    width: 40vw;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem  -0.7rem rgba(0, 0, 0, 0.4); /* -0.7 kitna SPREAD  */
+    padding: 3rem 8rem;
+}
+
+.innerDiv h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 1rem 0 4rem 0 ;  /* tor right bottom left */
+
+}
+
+.innerDiv li{
+    font-size: 2rem;
+    list-style: none;
+    
+    margin-top: 1rem;
+}
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: none;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    background-color: #74b9ff;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #0984e3;
+}
+
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem  -0.7rem rgba(0, 0, 0, 0.4); 
+}
+#showScore h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#showScore button{
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color: #2d3436;
+}
+#showScore button:hover{
+    
+    background-color: #00b894;
+    color: #fff;
+}
+.scoreArea{
+    display: none;
+}
